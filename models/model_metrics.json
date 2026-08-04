@@ -1,0 +1,58 @@
+{
+  "logistic_regression": {
+    "accuracy": 0.8334,
+    "precision_macro": 0.6325,
+    "recall_macro": 0.8989,
+    "f1_macro": 0.7064,
+    "roc_auc_macro_ovr": 0.9675,
+    "training_time_seconds": 5.3
+  },
+  "random_forest": {
+    "accuracy": 0.9469,
+    "precision_macro": 0.8262,
+    "recall_macro": 0.946,
+    "f1_macro": 0.8779,
+    "roc_auc_macro_ovr": 0.9798,
+    "training_time_seconds": 66.88
+  },
+  "xgboost": {
+    "accuracy": 0.9401,
+    "precision_macro": 0.8093,
+    "recall_macro": 0.9495,
+    "f1_macro": 0.8676,
+    "roc_auc_macro_ovr": 0.9836,
+    "training_time_seconds": 29.15
+  },
+  "lightgbm": {
+    "accuracy": 0.9402,
+    "precision_macro": 0.8098,
+    "recall_macro": 0.9494,
+    "f1_macro": 0.8679,
+    "roc_auc_macro_ovr": 0.9834,
+    "training_time_seconds": 12.55
+  },
+  "catboost": {
+    "accuracy": 0.9384,
+    "precision_macro": 0.8052,
+    "recall_macro": 0.9494,
+    "f1_macro": 0.8647,
+    "roc_auc_macro_ovr": 0.9832,
+    "training_time_seconds": 82.5
+  },
+  "neural_network": {
+    "accuracy": 0.9662,
+    "precision_macro": 0.9573,
+    "recall_macro": 0.8649,
+    "f1_macro": 0.9064,
+    "roc_auc_macro_ovr": 0.9821,
+    "training_time_seconds": 37.78
+  },
+  "lightgbm_tuned": {
+    "accuracy": 0.9505,
+    "precision_macro": 0.8413,
+    "recall_macro": 0.9393,
+    "f1_macro": 0.8847,
+    "roc_auc_macro_ovr": 0.9823,
+    "training_time_seconds": 3807.27
+  }
+}
