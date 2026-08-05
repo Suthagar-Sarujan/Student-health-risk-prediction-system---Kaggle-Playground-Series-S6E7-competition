@@ -1,10 +1,3 @@
-"""
-config.py
-Shared constants used by every script in this project so that the
-feature list, target name, and file paths stay consistent between
-training, evaluation, submission generation, and the Streamlit app.
-"""
-
 import os
 
 # ---------------------------------------------------------------------

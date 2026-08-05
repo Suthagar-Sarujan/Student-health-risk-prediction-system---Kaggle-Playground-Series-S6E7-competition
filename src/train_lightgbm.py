@@ -1,13 +1,4 @@
-"""
-train_lightgbm.py
 
-LightGBM classifier — this is the model deployed in the Streamlit app
-(see Section D for the justification: best macro recall/ROC-AUC
-trade-off relative to training cost among the six candidates).
-
-Run from the project root:
-    python src/train_lightgbm.py
-"""
 
 from lightgbm import LGBMClassifier
 

@@ -1,13 +1,4 @@
-"""
-train_xgboost.py
 
-XGBoost multiclass classifier. XGBoost has no built-in
-class_weight='balanced' option, so per-sample weights are computed
-via sklearn's compute_sample_weight and passed explicitly to fit().
-
-Run from the project root:
-    python src/train_xgboost.py
-"""
 
 from sklearn.utils.class_weight import compute_sample_weight
 from xgboost import XGBClassifier

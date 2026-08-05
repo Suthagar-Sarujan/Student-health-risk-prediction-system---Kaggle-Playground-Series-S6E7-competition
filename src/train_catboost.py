@@ -1,12 +1,3 @@
-"""
-train_catboost.py
-
-CatBoost classifier with auto_class_weights='Balanced' to handle the
-class imbalance found during EDA.
-
-Run from the project root:
-    python src/train_catboost.py
-"""
 
 from catboost import CatBoostClassifier
 

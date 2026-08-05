@@ -1,11 +1,3 @@
-"""
-train_utils.py
-
-Shared helpers used by every train_*.py script: loading data, doing
-the stratified 80/20 split, and saving a trained model + its metrics
-in a consistent format so evaluate_models.py can compare all six
-models on equal footing.
-"""
 
 import json
 import os

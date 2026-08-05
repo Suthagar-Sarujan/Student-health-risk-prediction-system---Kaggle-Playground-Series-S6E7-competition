@@ -1,12 +1,4 @@
-"""
-train_random_forest.py
 
-Random Forest classifier (n_estimators=200, max_depth=16), with
-class_weight='balanced' to handle the imbalance found in EDA.
-
-Run from the project root:
-    python src/train_random_forest.py
-"""
 
 from sklearn.ensemble import RandomForestClassifier
 

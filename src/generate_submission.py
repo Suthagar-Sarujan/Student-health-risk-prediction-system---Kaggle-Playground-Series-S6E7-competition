@@ -1,14 +1,3 @@
-"""
-generate_submission.py
-
-Loads the fitted preprocessing pipeline and the deployed LightGBM model,
-applies the SAME train-derived imputation to the competition test.csv
-(never recomputed from the test set, to avoid leakage), and writes the
-Kaggle submission file.
-
-Run from the project root:
-    python src/generate_submission.py
-"""
 
 import joblib
 import pandas as pd

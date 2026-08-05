@@ -1,21 +1,4 @@
-"""
-tune_lightgbm.py
 
-Hyperparameter search for the deployed LightGBM model. Runs a
-RandomizedSearchCV (StratifiedKFold on the training split, scored on
-macro-F1 to match the metric the six-model comparison in Section E
-is built around), then refits the best estimator and evaluates it on
-the SAME held-out test split used by train_lightgbm.py.
-
-This does NOT overwrite the deployed model — it saves a separate
-lightgbm_tuned_model.pkl / lightgbm_tuned_params.json pair and adds a
-"lightgbm_tuned" entry to model_metrics.json so the tuned result can
-be compared against the untuned baseline before deciding whether to
-promote it.
-
-Run from the project root:
-    python src/tune_lightgbm.py
-"""
 
 import json
 import os

@@ -1,15 +1,3 @@
-"""
-train_neural_network.py
-
-Multi-layer Perceptron, hidden_layer_sizes=(64, 32), with early
-stopping. Note (see Section E, limitations): scikit-learn's MLPClassifier
-does not support per-sample class weighting, so — unlike the other five
-models — this one is trained WITHOUT explicit class-imbalance correction.
-This is a genuine limitation discussed in Section F.
-
-Run from the project root:
-    python src/train_neural_network.py
-"""
 
 from sklearn.neural_network import MLPClassifier
 

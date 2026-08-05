@@ -1,21 +1,4 @@
-"""
-generate_submissions_all.py
 
-Same purpose as generate_submission.py / generate_submission_tuned.py, but
-loops over every already-trained model in MODEL_PATHS (plus the tuned
-LightGBM, if it exists) instead of just the deployed one. Produces one
-submission_<model_name>.csv per model at the project root, all matching
-the exact sample_submission.csv schema (id, health_condition).
-
-This exists to satisfy a "3 or more Kaggle submissions" requirement on
-top of the single deployed-model submission generate_submission.py
-already covers - each file can be uploaded to the competition separately
-so the models can be compared on the real leaderboard, not just on the
-local held-out test split.
-
-Run AFTER training all six models (train_*.py), from the project root:
-    python src/generate_submissions_all.py
-"""
 
 import os
 

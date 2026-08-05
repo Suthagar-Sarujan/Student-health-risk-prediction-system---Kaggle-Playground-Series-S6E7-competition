@@ -1,14 +1,4 @@
-"""
-evaluate_models.py
 
-Runs all six saved models on the SAME held-out test split and produces:
-  - Figure 7: confusion_matrices.png  (normalized, all 6 models)
-  - Figure 8: roc_curves.png          (one-vs-rest, all 6 models)
-  - A printed/markdown comparison table matching Section E of the report
-
-Run AFTER training all six models:
-    python src/evaluate_models.py
-"""
 
 import json
 

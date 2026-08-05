@@ -1,18 +1,3 @@
-"""
-eda.py
-
-Loads train.csv, checks missingness and correlation structure, and
-generates the EDA figures referenced in Section C of the report:
-
-  Figure 1 - class_balance.png                (target distribution)
-  Figure 2 - missingness.png                   (missing values per column)
-  Figure 3 - correlation_heatmap.png           (numeric feature correlation)
-  Figure 4 - stress_level_vs_target.png        (non-monotonic stress effect)
-  Figure 5 - feature_distributions_by_class.png (numeric distributions by class)
-
-Run from the project root:
-    python src/eda.py
-"""
 
 import pandas as pd
 import matplotlib.pyplot as plt

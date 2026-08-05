@@ -1,15 +1,3 @@
-"""
-generate_submission_tuned.py
-
-Same as generate_submission.py but scores the competition test.csv with
-the tuned LightGBM model produced by tune_lightgbm.py
-(lightgbm_tuned_model.pkl) instead of the deployed baseline. Lets the
-tuned model's Kaggle score be compared against the baseline submission
-before deciding whether to promote it to DEPLOYED_MODEL_PATH.
-
-Run AFTER tune_lightgbm.py, from the project root:
-    python src/generate_submission_tuned.py
-"""
 
 import os
 

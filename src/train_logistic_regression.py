@@ -1,12 +1,4 @@
-"""
-train_logistic_regression.py
 
-Baseline model. Trained with class_weight='balanced' to account for
-the severe class imbalance identified in the EDA (Section C).
-
-Run from the project root:
-    python src/train_logistic_regression.py
-"""
 
 from sklearn.linear_model import LogisticRegression
 

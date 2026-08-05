@@ -1,22 +1,4 @@
-"""
-explainability.py
 
-Computes two importance measures for the deployed LightGBM model and
-saves the comparison figures referenced in Section E:
-
-  Figure 9  - feature_importance_split.png  (default split-count importance)
-  Figure 10 - shap_summary.png              (gain-based / SHAP importance)
-
-The report specifically discusses why these two measures DISAGREE:
-split-count importance over-weights numeric features (which offer many
-more possible split thresholds than one-hot categorical columns), while
-gain-based/SHAP importance correctly surfaces stress_level and
-physical_activity_level as top predictors, consistent with the EDA
-finding in Section C.
-
-Run AFTER train_lightgbm.py:
-    python src/explainability.py
-"""
 
 import joblib
 import matplotlib.pyplot as plt
