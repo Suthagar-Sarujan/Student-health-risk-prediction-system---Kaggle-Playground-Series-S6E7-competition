@@ -1,20 +1,3 @@
-"""
-app.py
-
-Streamlit application for the Student Health Risk predictor.
-
-Loads the fitted preprocessing pipeline and the deployed LightGBM
-model ONCE at startup (via @st.cache_resource — the Streamlit
-equivalent of the "load once, not per request" pattern), collects the
-13 lifestyle/physiological inputs through form widgets, applies the
-SAME fitted preprocessing pipeline used during training (preventing
-train/serve skew), and displays the predicted class alongside the
-full 3-class probability distribution.
-
-Run from the project root:
-    streamlit run app/app.py
-"""
-
 import os
 import sys
 
