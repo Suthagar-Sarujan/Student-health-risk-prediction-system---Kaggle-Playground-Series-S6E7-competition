@@ -71,7 +71,7 @@ python generate_submission.py
 ## Running the app
 
 ```bash
-streamlit run app/app.py
+python -m streamlit run app/app.py
 ```
 
 Opens at `http://localhost:8501`. Fill in the 13 lifestyle/
